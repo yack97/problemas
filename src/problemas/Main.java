@@ -12,7 +12,7 @@ import ejercicio2.ejercicio_2;
  */
 public class Main {
     private void ejercicio1(){}
-    private void ejercicio2(){}
+    public void ejercicio2(){}
     private void ejercicio3(){}
     private void ejercicio4(){}
     private void ejercicio5(){}
@@ -22,7 +22,7 @@ public class Main {
     public static void main(String[] args) {
         Scanner entrada=new Scanner(System.in);
         int op;
-        Main objMain=new Main(); 
+        Ejercicio2 objeto=new Ejercicio2(); 
         do{
             System.out.print("Seleccione un ejercicio: \n"
             +"1) ejercicio1\n"
@@ -34,19 +34,19 @@ public class Main {
             op=entrada.nextInt();
             switch(op){
                 case 1:
-                    objMain.ejercicio1();
+                    //objMain.ejercicio1();
                     break;
                 case 2:
-                    objMain.ejercicio2();
+                    objeto.Ejercicio2();
                     break;
                 case 3:
-                    objMain.ejercicio3();
+                    //objMain.ejercicio3();
                     break;
                 case 4:
-                    objMain.ejercicio4();
+                    //objMain.ejercicio4();
                     break;
                 case 5:
-                    objMain.ejercicio5();
+                    //objMain.ejercicio5();
                     break;
             }
         }while (op != 6);

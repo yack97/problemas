@@ -3,29 +3,27 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package ejercicio2;
-import java.util.*;
+package problemas;
+
+import java.util.Scanner;
+
 /**
  *
  * @author yadir
  */
-public class ejercicio_2 {
-    private void ejercicio1(){}
-    private void ejercicio2(){}
-    private void ejercicio3(){}
-    private void ejercicio4(){}
-    private void ejercicio5(){}
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-                Scanner entrada=new Scanner(System.in);
-        int n, numero;
-        System.out.print("Cuantas consultas desea realizar: ");
-        n=entrada.nextInt();
-        for (int  i=1; i<=n; i++){
-            System.out.println("Digite un numero: ");
-            numero=entrada.nextInt();
+public class Ejercicio2 {
+        Scanner entrada=new Scanner(System.in);
+        int  i, numero=4;
+        //int n=3;
+        //System.out.print("Cuantas consultas desea realizar: ");
+        //n=entrada.nextInt();
+        Solicitud objeto1=new Solicitud();
+        objeto1.modificar();
+        int valorn1=objeto1.getn(); 
+        
+      //  for ( i=1; i<=n; i++){
+           // System.out.println("Digite un numero: ");
+           // numero=entrada.nextInt();
         switch (numero){
             case 1:
                 System.out.println("INVIERNO");
@@ -64,7 +62,11 @@ public class ejercicio_2 {
                 System.out.println("PRIMAVERA");
                 break;
         }
-        }
-    }
+        
+//}
+
+    //Ejercicio2() {
+    //    throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+   // }
     
 }
